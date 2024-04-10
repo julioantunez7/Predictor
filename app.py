@@ -3,8 +3,7 @@ import pickle
 import requests
 import streamlit as st
 
-import pip
-pip.main(["install", "scikit-learn"])
+
 
 # loading the saved model
 
