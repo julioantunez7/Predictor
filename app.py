@@ -2,8 +2,9 @@ import numpy as np
 import pickle
 import requests
 import streamlit as st
-import sklearn
 
+import pip
+pip.main(["install", "scikit-learn"])
 
 # loading the saved model
 
